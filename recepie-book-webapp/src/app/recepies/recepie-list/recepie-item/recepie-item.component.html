@@ -1,1 +1,19 @@
-<p>recepie-item works!</p>
+<a href="#" class="list-group-item clearfix">
+    <div class="row">
+        <div class="col-8">
+            <div class="float-left">
+                <h4 class="">
+                    {{recepie.name}}
+                </h4>
+                <p class="">
+                    {{recepie.description}}
+                </p>
+            </div>
+        </div>
+        <div class="col-4">
+            <span class="float-right">
+                <img [src]="recepie.imagePath" alt="{{recepie.name}}" class="img-responsive" style="max-height: 50px;" />
+            </span>
+        </div>
+    </div>
+</a>
