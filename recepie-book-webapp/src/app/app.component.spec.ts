@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'recepie-book-webapp'`, () => {
+  it(`should have as title 'recipe-book-webapp'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('recepie-book-webapp');
+    expect(app.title).toEqual('recipe-book-webapp');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('recepie-book-webapp app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('recipe-book-webapp app is running!');
   });
 });

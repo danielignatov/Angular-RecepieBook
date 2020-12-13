@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { RecepiesComponent } from './recepies/recepies.component';
-import { RecepieListComponent } from './recepies/recepie-list/recepie-list.component';
-import { RecepieItemComponent } from './recepies/recepie-list/recepie-item/recepie-item.component';
-import { RecepieDetailComponent } from './recepies/recepie-detail/recepie-detail.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { FooterComponent } from './footer/footer.component';
@@ -15,10 +15,10 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    RecepiesComponent,
-    RecepieListComponent,
-    RecepieItemComponent,
-    RecepieDetailComponent,
+    RecipesComponent,
+    RecipeListComponent,
+    RecipeItemComponent,
+    RecipeDetailComponent,
     ShoppingListComponent,
     ShoppingListEditComponent,
     FooterComponent

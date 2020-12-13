@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "recepie-book-webapp": {
+    "recipe-book-webapp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/recepie-book-webapp",
+            "outputPath": "dist/recipe-book-webapp",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "recepie-book-webapp:build"
+            "browserTarget": "recipe-book-webapp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "recepie-book-webapp:build:production"
+              "browserTarget": "recipe-book-webapp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "recepie-book-webapp:build"
+            "browserTarget": "recipe-book-webapp:build"
           }
         },
         "test": {
@@ -118,15 +118,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "recepie-book-webapp:serve"
+            "devServerTarget": "recipe-book-webapp:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "recepie-book-webapp:serve:production"
+              "devServerTarget": "recipe-book-webapp:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "recepie-book-webapp"
+  "defaultProject": "recipe-book-webapp"
 }
